@@ -30,3 +30,14 @@
 
 
 **3. Creating a Scala Project:**
+
+Covers:
+
+- _How to create a new Scala project_
+- _How to add external libraries to your project_
+- _How to open a project in Scala IDE_
+
+**4. The Scala REPL:**
+
+- REPL: read, Evaluate and Print Loop
+- An interactive shell loop to try out Scala logic
