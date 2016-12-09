@@ -8,6 +8,18 @@ Objectives:
 ● Describe how arguments are passed to Scala class instances
 ● Outline the lifespan of class parameters in a Scala class instance
 ```
+What is a Class?
+- A class is a description of a Type
+ - Embodies state in an instance of a class
+ - Represents behaviour for how that state can be transformed
+ - It is not concrete until it has been 'instantiated' via a call to its constructer via the 'new' keyword
+ Multiple instances of a class can exist
+
+
+ _Eg. A customer: Inside of a customer you might have states such as their name or their address or their phone number. Classes represent behaviour for how that state can be transformed. For example, how you might change someone's address or their name. Classes are not concrete unless they have been instantiated by a call to their constructor with the 'new' keyword. The class merely describes how you would want to represent concepts such as a customer and then to have an instance of a customer that represents a specific person you have to instantiate the Customer class with the new keyword_
+
+
+
 
 **2.2:**
 ```
