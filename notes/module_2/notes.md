@@ -46,7 +46,6 @@ Objectives:
  - Represents the state of an instance, and therefore an application at a given time
  - Is accessible to the outside world, unless specified otherwise
 
-
  **Field versus Parameters**
 
  - Parameters are passed to a class and are only visible within a class
@@ -65,6 +64,13 @@ Objectives:
 - Scala has 'type inference' but it is best not to rely on this
 - It is a good habit to be specific about types anyway
 
+**Promoting Class Parameters:**
+
+- If you want to make a parameter passed to a class constructor into a publicly visible field, add the val word in front of it
+- The Scala compiler will generate an accessor method for you, and other class instances can now ask for the current state of the promoted field
+
+[Scala Docs on Mutable and Immutable Collections](http://docs.scala-lang.org/overviews/collections/overview.html)
+
 **2.3:**
 ```
 Objectives:
@@ -73,6 +79,24 @@ Objectives:
 ● Describe evaluation order of methods versus fields in Scala
 ● Outline how infix notation works in Scala
 ```
+
+**What is a method?**
+
+A method describes behaviour within a class :
+  - Are something that can be called to do work
+  - Where transformations to internal state can take place
+  - May take parameters as inputs, and may return a single values
+  - Should specify the return type
+   - More correctness
+   - Faster compilation
+
+
+**Why Methods Instead of Fields?**
+
+- Methods can look like Fields
+- Methods are evaluated at the time they are called
+- Methods are re-evaluated every time they are called
+- Fields are only evaluated at the time the class is constructed, and if immutable, only one time
 
 **2.4:**
 ```
