@@ -51,7 +51,7 @@ Objectives:
  - Parameters are passed to a class and are only visible within a class
  - Fields exist within the body of a class, and are accessible to outsiders
 
- _Mutable fields:_ can be set within the body using **var**
+ _Mutable fields:_ can be set within the body using **var**<br>
  _Immutable fields:_ can be set using **val**
 
 **Immutable or Mutable?**
