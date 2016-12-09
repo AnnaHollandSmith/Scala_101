@@ -124,15 +124,8 @@ Objectives:
 
 **Named Arguments**
 
-- Leading arguments can be omitted if they have default values- - You can specify only the values you want to pass
-
-
-
-
-
-
-
-
+- Leading arguments can be omitted if they have default values
+- You can specify only the values you want to pass
 
 **2.5:**
 ```
@@ -143,3 +136,15 @@ Objectives:
 ● Outline usages for objects in Scala applications
 ● Start a Scala application
 ```
+
+**What is an Object?**
+
+- The Singleton Pattern
+ - Defines a single instance of a class that cannot be recreated within a single JVM instance
+ - Can be directly accessed via its named
+
+**Why is it useful?**
+
+- Many languages permit the definition of 'static' fields and methods
+- These are globally available within the runtime, such as JVM
+- The are not related to specific instances of a class
