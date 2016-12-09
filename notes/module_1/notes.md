@@ -12,7 +12,7 @@
    - Low boilerplate ( don't have to write much code to do very simple things)
    - Syntax is very familiar to other data-centric Languages
 
-- _Stable yet innovative:_
+- _Stable yet innovative_
 
 **Scala's History:**
 
@@ -24,7 +24,7 @@
 
 **2. Getting started with Scala:**
 
-- [www.scala-lang.org/](https://www.scala-lang.org/)
+- [www.scala-lang.org](https://www.scala-lang.org/)
 - [Lightbend Activator](http://www.lightbend.com/community/core-tools/activator-and-sbt): useful for templates.
 - [Activator documentation](http://www.lightbend.com/activator/docs)
 
