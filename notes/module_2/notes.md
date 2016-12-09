@@ -52,15 +52,18 @@ Objectives:
  - Parameters are passed to a class and are only visible within a class
  - Fields exist within the body of a class, and are accessible to outsiders
 
- _Immutable fields_: can be set within 
+ _Mutable fields:_ can be set within the body using **var**
+ _Immutable fields:_ can be set using **val**
 
 **Immutable or Mutable?**
 
 - Immutable fields cannot be changed and are therefore "threadsafe" in a multithreaded environment, such as the JVM
 - Mutable fields can be useful, but require diligence to ensure that multiple threads cannot update the field at the same time
 
+**Specify Types**
 
-
+- Scala has 'type inference' but it is best not to rely on this
+- It is a good habit to be specific about types anyway
 
 **2.3:**
 ```
