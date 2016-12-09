@@ -41,3 +41,18 @@ Covers:
 
 - REPL: read, Evaluate and Print Loop
 - An interactive shell loop to try out Scala logic
+
+**5. The Scala Documentation:**
+
+- How to Access Scala Api Documentation:
+ - Primary source: [Scala Lang Website](http://www.scala-lang.org/)
+  - [API Docs](http://www.scala-lang.org/api/current/)
+  - [Scala Documentation](http://www.scala-lang.org/documentation/)
+   - [Getting Started](http://www.scala-lang.org/documentation/getting-started.html)
+   - [Tutorials](http://docs.scala-lang.org/tutorials/?_ga=1.168609576.840328427.1479134810)
+   - [Style Guide](http://docs.scala-lang.org/style/?_ga=1.168609576.840328427.1479134810)
+   - [Glossary](http://docs.scala-lang.org/glossary/?_ga=1.168609576.840328427.1479134810)
+   - [Cheat Sheets](http://docs.scala-lang.org/cheatsheets/?_ga=1.168609576.840328427.1479134810)
+
+- How to leverage several Scala style guides:
+- How to use common productivity tools to aid in rapid development:
