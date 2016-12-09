@@ -20,4 +20,13 @@
 - 2001: Decided to create an even better Java.
 - 2003: First experimental release.
 - 2005: Scala 2.0 written.
-- 2011: Corporate stewardship. 
+- 2011: Corporate stewardship.
+
+**2. Getting started with Scala:**
+
+- [www.scala-lang.org/](https://www.scala-lang.org/)
+- [Lightbend Activator](http://www.lightbend.com/community/core-tools/activator-and-sbt): useful for templates.
+- [Activator documentation](http://www.lightbend.com/activator/docs)
+
+
+**3. Creating a Scala Project:**
