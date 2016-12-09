@@ -53,18 +53,20 @@ Primary source: [Scala Lang Website](http://www.scala-lang.org/)
   - [Scala Documentation](http://www.scala-lang.org/documentation/)
    - [Getting Started](http://www.scala-lang.org/documentation/getting-started.html)
    - [Tutorials](http://docs.scala-lang.org/tutorials/?_ga=1.168609576.840328427.1479134810)
-   - [Style Guide](http://docs.scala-lang.org/style/?_ga=1.168609576.840328427.1479134810)
    - [Glossary](http://docs.scala-lang.org/glossary/?_ga=1.168609576.840328427.1479134810)
    - [Cheat Sheets](http://docs.scala-lang.org/cheatsheets/?_ga=1.168609576.840328427.1479134810)
 
 - How to leverage several Scala style guides:
+ - [Scala Lang Style Guide](http://docs.scala-lang.org/style/?_ga=1.168609576.840328427.1479134810)
+ - [Effective Scala](http://twitter.github.io/effectivescala/): Twitter's own style guide
+ - [Databricks Scala Guide](https://github.com/databricks/scala-style-guide)
+
 - How to use common productivity tools to aid in rapid development:
+  - [Dash for Mac](https://kapeli.com/dash)
 
 ----------------------------
-
 
 Useful Links:
 - [An overview of the Scala Programming Language](http://www.scala-lang.org/docu/files/ScalaOverview.pdf)
 - [Scala By Example](http://www.scala-lang.org/docu/files/ScalaByExample.pdf)
 - [Twitter's open source Scala projects](http://twitter.github.io/)
- - [Effective Scala](http://twitter.github.io/effectivescala/)
