@@ -98,6 +98,13 @@ A method describes behaviour within a class :
 - Methods are re-evaluated every time they are called
 - Fields are only evaluated at the time the class is constructed, and if immutable, only one time
 
+**Infix Noification**
+
+- Methods are called on an instance of a class
+- Scala permits methods to be called with no "." or parentheses, if the method only takes one arguments
+- This is flexible syntax that supports powerful DSLs(Doman Specific Languages)
+- For readability, you should not use this feature
+
 **2.4:**
 ```
 Objectives:
@@ -105,6 +112,27 @@ Objectives:
 ● Utilize default argument values in Scala class constructors and methods
 ● Leverage named arguments to only pass certain values
 ```
+
+**Default Arguments**
+
+- Allows the developer to specify a value to use for a constructor or method when none is passed by the caller, and omit values that are frequently the same.
+- Reduces boilerplate in application source code because you don't have to 'overload' the methods with different signatures
+
+**Best Practice**
+
+- If you have a mixture of default arguments and those that do not have a default value, put the arguments without defaults first
+
+**Named Arguments**
+
+- Leading arguments can be omitted if they have default values- - You can specify only the values you want to pass
+
+
+
+
+
+
+
+
 
 **2.5:**
 ```
