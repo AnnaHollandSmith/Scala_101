@@ -18,9 +18,19 @@ What is a Class?
 
  _Eg. A customer: Inside of a customer you might have states such as their name or their address or their phone number. Classes represent behaviour for how that state can be transformed. For example, how you might change someone's address or their name. Classes are not concrete unless they have been instantiated by a call to their constructor with the 'new' keyword. The class merely describes how you would want to represent concepts such as a customer and then to have an instance of a customer that represents a specific person you have to instantiate the Customer class with the new keyword_
 
+The Primary Constructor:
 
+ - Each class gets a primary constructor automatically
+  - Defines the 'signature' of how to create an instance
+  - The body of the class is the implementation of the constructor (within the curly braces)
 
+Class Parameters:
 
+- You can pass values into an instance of a class using one or more parameters to the constructor
+ - You must specify the type of the parameter
+ - The values are internally visible for the life of the class instance
+ - They cannot be accessed from outside of the class instance
+ 
 **2.2:**
 ```
 Objectives:
