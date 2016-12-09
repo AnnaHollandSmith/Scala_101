@@ -1,5 +1,5 @@
 # Module 1: Introduction
-``
+
 **1: Introduction to Scala:**
 
  - _Scala has modularity:_ don't have one global name space for all classes. Languages that don't have this become difficult to maintain over time as they get larger.
@@ -14,19 +14,15 @@
 
 - _Stable yet innovative_
 
-**Scala's History:**
+```
+Scala's History:
 
 - 1990's: Made Java better via generics in the "javac" compiler.
 - 2001: Decided to create an even better Java.
 - 2003: First experimental release.
 - 2005: Scala 2.0 written.
 - 2011: Corporate stewardship.
-
-Useful Links:
-- [An overview of the Scala Programming Language](http://www.scala-lang.org/docu/files/ScalaOverview.pdf)
-- [Scala By Example](http://www.scala-lang.org/docu/files/ScalaByExample.pdf)
-- [Twitter's open source Scala projects](http://twitter.github.io/)
- - [Effective Scala](http://twitter.github.io/effectivescala/)
+```
 
 **2. Getting started with Scala:**
 
@@ -63,3 +59,12 @@ Primary source: [Scala Lang Website](http://www.scala-lang.org/)
 
 - How to leverage several Scala style guides:
 - How to use common productivity tools to aid in rapid development:
+
+----------------------------
+
+
+Useful Links:
+- [An overview of the Scala Programming Language](http://www.scala-lang.org/docu/files/ScalaOverview.pdf)
+- [Scala By Example](http://www.scala-lang.org/docu/files/ScalaByExample.pdf)
+- [Twitter's open source Scala projects](http://twitter.github.io/)
+ - [Effective Scala](http://twitter.github.io/effectivescala/)
