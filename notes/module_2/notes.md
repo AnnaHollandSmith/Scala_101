@@ -148,3 +148,9 @@ Objectives:
 - Many languages permit the definition of 'static' fields and methods
 - These are globally available within the runtime, such as JVM
 - The are not related to specific instances of a class
+
+**When are Objects Used?**
+
+- Class Factories
+- Utility methods
+- Constant definitions
